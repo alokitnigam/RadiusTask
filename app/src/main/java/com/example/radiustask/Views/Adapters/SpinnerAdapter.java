@@ -40,7 +40,7 @@ private View getCustomView(final int position, View convertView, ViewGroup paren
     final TextView optiontext=(TextView)row.findViewById(R.id.optiontext);
     final ImageView optionImage  = row.findViewById(R.id.optionimage);
     optiontext.setText(objects.get(position).getName());
-    int optionDrawable = R.drawable.ic_launcher_background ;
+    int optionDrawable = R.drawable.ic_arrow_drop_down_black_24dp ;
     if(objects.get(position).getIcon() != null){
         switch (objects.get(position).getIcon()){
             case "apartment": optionDrawable = R.drawable.apartment;
