@@ -2,7 +2,7 @@
 
 Used Libraries:
 
-1.Dagger2
+1.Dagger2 and MVVM
 2.Realm for database
 3.Workmanager
 4.Retrofit for network calls
